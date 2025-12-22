@@ -48,4 +48,4 @@ A modern, responsive Pokedex application built with React and Vite, powered by t
 - `src/main.jsx`: Entry point for React.
 
 ---
-Created with ❤️ by [Arjun](https://github.com/your-username)
+Created with ❤️ by [Arjun](https://github.com/arjunpjaiswal)
