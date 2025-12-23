@@ -5,6 +5,8 @@ A modern, responsive Pokedex application built with React and Vite, powered by t
 ## 🚀 Features
 
 - **Pokemon Overview**: Browse a list of Pokemon with their names and images.
+- **Detailed View**: View specific details for each Pokemon, including height, weight, and types.
+- **Client-Side Routing**: Fast and seamless navigation using React Router.
 - **Dynamic Data**: Fetches real-time data from the PokeAPI.
 - **Pagination**: Navigate through the extensive collection of Pokemon using 'Next' and 'Prev' controls.
 - **Responsive Design**: Clean and functional interface (custom CSS).
@@ -13,6 +15,7 @@ A modern, responsive Pokedex application built with React and Vite, powered by t
 ## 🛠️ Tech Stack
 
 - **Framework**: [React 19](https://react.dev/)
+- **Routing**: [React Router](https://reactrouter.com/)
 - **Build Tool**: [Vite](https://vitejs.dev/)
 - **Data Fetching**: [Axios](https://axios-http.com/)
 - **API**: [PokeAPI](https://pokeapi.co/)
@@ -20,9 +23,9 @@ A modern, responsive Pokedex application built with React and Vite, powered by t
 
 ## 📦 Installation & Setup
 
-1. **Clone the repository** (after pushing to GitHub):
+1. **Clone the repository**:
    ```bash
-   git clone https://github.com/your-username/pokedex.git
+   git clone https://github.com/arjunpjaiswal/pokedex.git
    cd pokedex
    ```
 
@@ -43,9 +46,10 @@ A modern, responsive Pokedex application built with React and Vite, powered by t
 
 ## 🏗️ Project Structure
 
-- `src/Components`: Contains re-usable components (Pokedex, PokemonList, Pokemon, Search).
-- `src/App.jsx`: Main application container.
-- `src/main.jsx`: Entry point for React.
+- `src/Components`: Re-usable components (`Pokedex`, `PokemonList`, `Pokemon`, `PokemonDetails`, `Search`).
+- `src/routes`: Routing configuration using React Router.
+- `src/App.jsx`: Main application container with shared layout.
+- `src/main.jsx`: Entry point for React, wrapped in `BrowserRouter`.
 
 ---
-Created  by [Arjun](https://github.com/arjunpjaiswal)
+Built by [Arjun](https://github.com/arjunpjaiswal)
