@@ -6,11 +6,12 @@ A modern, responsive Pokedex application built with React and Vite, powered by t
 
 - **Pokemon Overview**: Browse a list of Pokemon with their names and images.
 - **Detailed View**: View specific details for each Pokemon, including height, weight, and types.
+- **Debounced Search**: Efficiently search for Pokemon by name using a custom `useDebounce` hook to optimize API interactions.
 - **Client-Side Routing**: Fast and seamless navigation using React Router.
 - **Dynamic Data**: Fetches real-time data from the PokeAPI.
 - **Pagination**: Navigate through the extensive collection of Pokemon using 'Next' and 'Prev' controls.
 - **Responsive Design**: Clean and functional interface (custom CSS).
-- **Search (Coming Soon)**: Placeholder search functionality for future implementation.
+
 
 ## 🛠️ Tech Stack
 
@@ -47,6 +48,7 @@ A modern, responsive Pokedex application built with React and Vite, powered by t
 ## 🏗️ Project Structure
 
 - `src/Components`: Re-usable components (`Pokedex`, `PokemonList`, `Pokemon`, `PokemonDetails`, `Search`).
+- `src/hooks`: Custom hooks like `useDebounce` for optimized performance.
 - `src/routes`: Routing configuration using React Router.
 - `src/App.jsx`: Main application container with shared layout.
 - `src/main.jsx`: Entry point for React, wrapped in `BrowserRouter`.
